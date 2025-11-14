@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>video25</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #ff3c00;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      color: #ccc;
+    }
+
+    .film-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      padding: 30px;
+    }
+
+    .film-card {
+      background-color: #1f1f1f;
+      padding: 15px;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .film-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 15px rgba(255, 60, 0, 0.4);
+    }
+
+    .film-card h2 {
+      margin-top: 0;
+      font-size: 1.3em;
+      color: #ff3c00;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>video25</h1>
+  <p>Ausgewählte Filme und Projekte</p>
+</header>
+
+<section class="film-grid">
+  <div class="film-card">
+    <h2>1000 Beats per Minute</h2>
+    <iframe src="https://drive.google.com/file/d/1SHNCtqTIA9Dz_r7CmQymI8hyEt_HAjsa/preview" allow="autoplay; fullscreen"></iframe>
+  </div>
+
+  <div class="film-card">
+    <h2>Апрель 2025</h2>
+    <iframe src="https://drive.google.com/file/d/1Q7m7GLziNI5GsrTzHGqFVAcH4IvMVb2i/preview" allow="autoplay; fullscreen"></iframe>
+  </div>
+
+  <div class="film-card">
+    <h2>Март 2025</h2>
+    <iframe src="https://drive.google.com/file/d/1-F3W3p3aOTnG85voh39t9nMh2FQ9T47-/preview" allow="autoplay; fullscreen"></iframe>
+  </div>
+
+  <div class="film-card">
+    <h2>Декабрь 2024</h2>
+    <iframe src="https://drive.google.com/file/d/1gEr1uX-f8cwqc6g4VkZ5sw-941SkZCtC/preview" allow="autoplay; fullscreen"></iframe>
+  </div>
+
+  <div class="film-card">
+    <h2>У тёти Тани (1.5.25)</h2>
+    <iframe src="https://drive.google.com/file/d/1QdIIOP0RfGwxGfFXEDBPhXXo1Oy_HH_n/preview" allow="autoplay; fullscreen"></iframe>
+  </div>
+</section>
+
+</body>
+</html>
