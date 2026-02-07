@@ -2,12 +2,13 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>>в ачаирском 2025</title>
   <style>
     body {
       background-color: #0d0d0d;
       color: #f0f0f0;
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
     }
@@ -16,112 +17,140 @@
       background-color: #1a1a1a;
       padding: 30px;
       text-align: center;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.7);
+    }
+
+    nav {
+      background-color: #262626;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      color: #ff3c00;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffffff;
     }
 
     h1 {
       margin: 0;
       font-size: 2.5em;
       color: #ff3c00;
-    }
-
-    p {
-      margin-top: 10px;
-      font-size: 1.1em;
-      color: #ccc;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
 
     .film-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 25px;
-      padding: 30px;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+      padding: 40px;
+      max-width: 1400px;
+      margin: 0 auto;
     }
 
     .film-card {
       background-color: #1f1f1f;
       padding: 15px;
-      border-radius: 10px;
+      border-radius: 12px;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid #333;
     }
 
     .film-card:hover {
-      transform: scale(1.03);
-      box-shadow: 0 0 15px rgba(255, 60, 0, 0.4);
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(255, 60, 0, 0.2);
+      border-color: #ff3c00;
     }
 
     .film-card h2 {
       margin-top: 0;
-      font-size: 1.3em;
+      margin-bottom: 15px;
+      font-size: 1.2em;
       color: #ff3c00;
+      border-left: 3px solid #ff3c00;
+      padding-left: 10px;
     }
 
     iframe {
       width: 100%;
-      height: 300px;
+      aspect-ratio: 16 / 9;
       border: none;
       border-radius: 8px;
+      background-color: #000;
+    }
+
+    @media (max-width: 600px) {
+      .film-grid {
+        padding: 15px;
+        gap: 20px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <nav style="background-color:#262626; padding:15px; text-align:center;">
-  <a href="achairskij25.html" style="color:#ff3c00; margin:0 15px; text-decoration:none; font-weight:bold;">
-    >в ачаирском 2025
-  </a>
-  <a href="index.html" style="color:#ff3c00; margin:0 15px; text-decoration:none; font-weight:bold;">
-    Video 25
-  </a>
-</nav>
-
-  
+  <nav>
+    <a href="achairskij25.html">>в ачаирском 2025</a>
+    <a href="index.html">Video 25</a>
+  </nav>
   <h1>в ачаирском 2025</h1>
-  
 </header>
 
-<section class="film-grid">
-  <div class="film-card">
-    <h2>в ачаирском 1 (2025)</h2>
-    <iframe src="https://drive.google.com/file/d/1P5IvjLyo_6z3NhkhFMI68nP34cyUzniL/preview" allow="autoplay; fullscreen"></iframe>
-  </div>
+<main>
+  <section class="film-grid">
+    <div class="film-card">
+      <h2>в ачаирском 1 (2025)</h2>
+      <iframe src="https://drive.google.com/file/d/1P5IvjLyo_6z3NhkhFMI68nP34cyUzniL/preview" allow="autoplay; fullscreen" loading="lazy"></iframe>
+    </div>
 
-  <div class="film-card">
-    <h2>в ачаирском 2 (2025)</h2>
-    <iframe src="https://drive.google.com/file/d/1Oa9SHrNQtiJPlHOTQxxnmo6PBIzht8kg/preview" allow="autoplay; fullscreen"></iframe>
-  </div>
+    <div class="film-card">
+      <h2>в ачаирском 2 (2025)</h2>
+      <iframe src="https://drive.google.com/file/d/1Oa9SHrNQtiJPlHOTQxxnmo6PBIzht8kg/preview" allow="autoplay; fullscreen" loading="lazy"></iframe>
+    </div>
 
-  <div class="film-card">
-    <h2>в ачаирском 3 (2025)</h2>
-    <iframe src="https://drive.google.com/file/d/1BLI633u9RfJwhxn7kdjGliu3KJJdv6Jf/preview" allow="autoplay; fullscreen"></iframe>
-  </div>
+    <div class="film-card">
+      <h2>в ачаирском 3 (2025)</h2>
+      <iframe src="https://drive.google.com/file/d/1BLI633u9RfJwhxn7kdjGliu3KJJdv6Jf/preview" allow="autoplay; fullscreen" loading="lazy"></iframe>
+    </div>
 
-  <div class="film-card">
-    <h2>в ачаирском 4 (2025)</h2>
-    <iframe src="https://drive.google.com/file/d/1TB2s-eqgrxDrJd6SFbv9g87_B-DjotYf/preview" allow="autoplay; fullscreen"></iframe>
-  </div>
+    <div class="film-card">
+      <h2>в ачаирском 4 (2025)</h2>
+      <iframe src="https://drive.google.com/file/d/1TB2s-eqgrxDrJd6SFbv9g87_B-DjotYf/preview" allow="autoplay; fullscreen" loading="lazy"></iframe>
+    </div>
 
-  <div class="film-card">
-    <h2>в ачаирском 5 (2025)</h2>
-    <iframe src="https://drive.google.com/file/d/1okcKfWxuOdlTT_eSlBGjaFDOKFXNwIvb/preview" allow="autoplay; fullscreen"></iframe>
-  </div>
+    <div class="film-card">
+      <h2>в ачаирском 5 (2025)</h2>
+      <iframe src="https://drive.google.com/file/d/1okcKfWxuOdlTT_eSlBGjaFDOKFXNwIvb/preview" allow="autoplay; fullscreen" loading="lazy"></iframe>
+    </div>
 
-  <div class="film-card">
-    <h2>в ачаирском 6 (2025)</h2>
-    <iframe src="https://drive.google.com/file/d/1msAcms1K5QZCzJ1gmWsA4oSqerXakv2c/preview" allow="autoplay; fullscreen"></iframe>
-  </div>
+    <div class="film-card">
+      <h2>в ачаирском 6 (2025)</h2>
+      <iframe src="https://drive.google.com/file/d/1msAcms1K5QZCzJ1gmWsA4oSerXakv2c/preview" allow="autoplay; fullscreen" loading="lazy"></iframe>
+    </div>
 
-  <div class="film-card">
-    <h2>в ачаирском 7 (2025)</h2>
-    <iframe src="https://drive.google.com/file/d/1CmBWEzFmdBCLBqpG2yKf6H9hqDfj387r/preview" allow="autoplay; fullscreen"></iframe>
-  </div>
-  <div class="film-card">
-    <h2>в ачаирском 8 (2025)</h2>
-    <iframe src="https://drive.google.com/file/d/1qzzzx9id1e1QrKXDiecAiiOfFZ5gyYJI/preview allow="autoplay; fullscreen"></iframe>
-  </div>
-</section>
-</section>
+    <div class="film-card">
+      <h2>в ачаирском 7 (2025)</h2>
+      <iframe src="https://drive.google.com/file/d/1CmBWEzFmdBCLBqpG2yKf6H9hqDfj387r/preview" allow="autoplay; fullscreen" loading="lazy"></iframe>
+    </div>
+
+    <div class="film-card">
+      <h2>в ачаирском 8 (2025)</h2>
+      <iframe src="https://drive.google.com/file/d/1qzzzx9id1e1QrKXDiecAiiOfFZ5gyYJI/preview" allow="autoplay; fullscreen" loading="lazy"></iframe>
+    </div>
+  </section>
+</main>
 
 </body>
 </html>
